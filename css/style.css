@@ -1,0 +1,65 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-image: linear-gradient(45deg, #e5989b, #ffb4a2);
+}
+.container {
+  width: 40%;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  background: #fff;
+}
+header {
+  margin-bottom: 10px;
+  margin-left: 3px;
+  color: #b5838d;
+}
+.lineThrough {
+  text-decoration: line-through;
+}
+
+div li {
+  list-style-type: none;
+  margin-top: 2px;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-top: 4px;
+  border: 2px solid #ced4da;
+  cursor: pointer;
+  margin-left: 3px;
+}
+.displayTogether {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  display: flex;
+  gap: 5px;
+}
+
+input {
+  width: 70%;
+  height: 30px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #e9ecef;
+  margin-bottom: 10px;
+}
+button {
+  border-radius: 20px;
+  width: 18%;
+  padding: 7px 14px;
+  border: none;
+  height: 40px;
+  background: #b5838d;
+  color: #fff;
+  cursor: pointer;
+}

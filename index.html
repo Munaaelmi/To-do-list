@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../todo/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <h2>To-do List 🔖</h2>
+      </header>
+
+      <main>
+        <section class="tasks">
+          <input type="text" id="inputTask" placeholder="Add your task" />
+          <button id="addTaskbtn">Add</button>
+        </section>
+
+        <div id="taskList">
+          <div class="displayTogether">
+            <div class="checkbox lineThrough"></div>
+            <li>Buy shopping</li>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script src="../todo/js/main.js"></script>
+  </body>
+</html>
